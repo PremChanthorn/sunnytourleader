@@ -271,8 +271,25 @@
 			text-align: right;
 		}
 }
+
+
+
+		.btn:focus, .btn:active, button:focus, button:active {
+		outline: none !important;
+		box-shadow: none !important;
+		}
+
+		#image-gallery .modal-footer{
+		display: block;
+		}
+
+		.thumb{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		}
+		
 		</style>
-			
+		
 	</head>
 
 	<body>
@@ -305,7 +322,7 @@
 					       	<li class="active"><a href="#home">HOME</a></li>
 							<li><a href="#about-us">ABOUT</a></li>
 							<li><a href="#service-section">Coutries</a></li>
-							<li><a href="#project-section">Working Experience</a></li>
+							<li><a href="#project-section">Gallery</a></li>
 							<li class='hidden'><a href="#team-section" >TEAM</a></li>
 							<li><a href="#skill-section">Skill</a></li>
 							<li class='hidden'><a href="#our-client">CLIENTS</a></li>
@@ -333,11 +350,11 @@
 					<!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
 						<div id="main-banner-slider" class="rev_slider video-slider" data-version="5.0.7">
 							<ul>
-
 								<!-- SLIDE1  -->
-								<li data-index="rs-280" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-title="Title Goes Here" data-description="">
+								<li data-index="rs-280" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-title="others" data-description="aaaa">
 									<!-- MAIN IMAGE -->
 									<img src="images/home/slide-1.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
+									
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
@@ -358,7 +375,7 @@
 										data-splitout="none" 
 										data-responsive_offset="on" 
 										style="z-index: 6; white-space: nowrap;">
-										<h1>Prem Chanthorn</h1>
+										<h1>Sunny Tour Leader </h1>
 									</div>
 
 									<!-- LAYER NR. 2 -->
@@ -379,16 +396,16 @@
 										data-splitout="none" 
 										data-responsive_offset="on" 
 										style="z-index: 6; white-space: nowrap;">
-										<h6>I am Application Support Engineer and Web Developer</h6>
+										<h4 style="color : #ffffff;">I am a Freelance Tour Leader</h4>
+																				
 									</div>
 
 
 									<!-- LAYER NR. 3 -->
-									<div class="tp-caption hidden"
+									<div class="tp-caption"
 										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
 										data-y="['middle','middle','middle','middle']" data-voffset="['52','52','125','80']"
-										data-transform_idle="o:1;"
-							 
+										data-transform_idle="o:1;"							 
 										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
 										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
 										data-mask_in="x:0px;y:[100%];" 
@@ -397,16 +414,13 @@
 										data-splitin="none" 
 										data-splitout="none" 
 										data-responsive_offset="on">
-										<a href="contact-us.html" class="project-button hvr-bounce-to-right">See Our Projects</a>
+										<a href="#contact-section" class="project-button hvr-bounce-to-right">Tel : 070 989 007</a>
 									</div>								
 								</li>
                             </ul>	
 						</div>
 					</div><!-- END REVOLUTION SLIDER -->
 	        </div> <!--  /#banner -->
-
-
-
 	        <!--
 			=====================================================
 				About us Section
@@ -416,9 +430,7 @@
 				<div class="container">
 					<div class="theme-title">
 						<h2>ABOUT ME</h2>
-						<p>My name is Prem chanthorn, I am from Banteay Meanchey Province.I was graduated at National University Of Management on <b>Information Technology</b>.
-                        Nowadays I am an Application Support Engineer at <a href='https://www.phillip.com.sg/' target='_new' style="font-weight:bold;">Phillipcapital</a>.
-                        My previous position is a Web Developer at <a href='http://softpointcambodia.com/' target='_new'>SOFTPOINT Co.LTD</a>.
+						<p>My name is Prem chanthorn (Called <b>Sunny Tour Leader</b>) , I am a freelance tour leader, I used to lead many groups for many agencies in Cambodia to other countries as Singapore,Malaysia,Vietnam and also lead group in Cambodia to other provinces.</a>.
                         </p>
 					</div> <!-- /.theme-title -->
 
@@ -428,7 +440,7 @@
 								<div class="icon round-border tran3s">
 									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 								</div>
-								<h5><a href="#" class="tran3s">Web Development</a></h5>
+								<h5><a href="#" class="tran3s">MANAGEMENT</a></h5>
 								<p class='hidden'>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 								<a href="#" class="more tran3s hvr-bounce-to-right hidden">More Details</a>
 							</div> <!-- /.single-about-content -->
@@ -450,7 +462,7 @@
 								<div class="icon round-border tran3s">
 									<i class="fa fa-life-ring" aria-hidden="true"></i>
 								</div>
-								<h5><a href="#" class="tran3s">Application Support</a></h5>
+								<h5><a href="#" class="tran3s">Service/Care/Support</a></h5>
 								<p class='hidden'>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 								<a href="#" class="more tran3s hvr-bounce-to-right hidden">More Details</a>
 							</div> <!-- /.single-about-content -->
@@ -461,7 +473,7 @@
 								<div class="icon round-border tran3s">
 									<i class="fa fa-line-chart" aria-hidden="true"></i>
 								</div>
-								<h5><a href="#" class="tran3s">System Analysis</a></h5>
+								<h5><a href="#" class="tran3s">Promoting</a></h5>
 								<p class='hidden'>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 								<a href="#" class="more tran3s hvr-bounce-to-right hidden">More Details</a>
 							</div> <!-- /.single-about-content -->
@@ -479,70 +491,54 @@
 			<div id="service-section">
 				<div class="container">
 					<div class="theme-title">
-						<h2>Successful Project</h2>
-						<p>These all below are the projects that is the part of my development for company.I was working and developing all projects almost 2 years.</p>
+						<h2>I used to lead group to other countries as below</h2>
+						<p class="hidden">These all below are the projects that is the part of my development for company.I was working and developing all projects almost 2 years.</p>
 					</div> <!-- /.theme-title -->
 
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="single-service-content">
 								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">RMS</span></div>
-									<h6><a href="#" class="tran3s">Restaurant Management System</a></h6>
+									<div class="icon tran3s"><span aria-hidden="true" style="font-size:30px;font-weight:bold;"><img src="images/flag/Cambodia.png" alt="Cambodia"></span></div>
+									<h6><a href="#" class="tran3s">Cambodia</a></h6>
 								</div>
-								<p>A restaurant management system is designed to help operate and manage your restaurant and bar.It includes many features and functions that make running a business more efficiently and ultimately more profitable. </p>
+								<p>
+									I used to lead many groups to many places in Cambodia : mondulkiri,Kratie,Ratanakiri,Stung Treng,Siem reap Angkor,Angkor wat,Kampot,Phnom Penh City Tour
+								</p>
 							</div> <!-- /.single-service-content -->
 						</div> <!-- /.col-lg -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="single-service-content">
 								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">POS</span></div>
-									<h6><a href="#" class="tran3s">Point Of Sale</a></h6>
+									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;"><img src="images/flag/Singapore.png" alt="Singapore"></span></div>
+									<h6><a href="#" class="tran3s">Singapore</a></h6>
 								</div>
-								<p>POS is systems that enable the business transaction between client and company to be completed.POS system supported by different hardware starting from barcode scanners and ending with card payment terminals.</p>
+								<p>I used to lead to many famous in Singapore : Merlion Park, Sentosa Iland, Gardand By The Bay,The biggest Sea Aquarium,Marina Bay Sands,Shopping,Singapore City Tour</p>
 							</div> <!-- /.single-service-content -->
 						</div> <!-- /.col-lg -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="single-service-content">
 								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">MMS</span></div>
-									<h6><a href="#" class="tran3s">Membership Management System</a></h6>
+									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;"><img src="images/flag/Vietnam.png" alt="Vietnam"></span></div>
+									<h6><a href="#" class="tran3s">Vietnam</a></h6>
 								</div>
-								<p>Membership software or association management system is a computer software which provides associations, clubs and other membership organizations with what they require to provide their services to their members.</p>
+								<p>I used to lead group to Vietname many place : Ho Chi Minh City, Dalat, nha trang, Saigon Cathedral Church,Independence Palace,Central Post Office,Dalat Flower gardens.  </p>
 							</div> <!-- /.single-service-content -->
 						</div> <!-- /.col-lg -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="single-service-content">
 								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">SMS</span></div>
-									<h6><a href="#" class="tran3s">School Management System</a></h6>
+									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;"><img src="images/flag/Malaysia.png" alt="Malaysia"></span></div>
+									<h6><a href="#" class="tran3s">Malaysia</a></h6>   
 								</div>
-								<p>School Management System are Control information related to school,control student information, score information and payment information. all report is generated base on user input. </p>
+								<p>I used to lead to many good place in Malaysia : Twince Towers,Batu Caves,Genting highland,Kuala Lumpur, Red house portuges, Putrajaya city,King Royal, independence square</p>
 							</div> <!-- /.single-service-content -->
 						</div> <!-- /.col-lg -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-service-content">
-								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">Coffee</span></div>
-									<h6><a href="#" class="tran3s">Retail POS For Coffee</a></h6>
-								</div>
-								<p>POS Cafe is systems that enable the business transaction between client and company to be completed.POS cafe system supported by different hardware, can order with add topping andcard payment terminals.</p></p>
-							</div> <!-- /.single-service-content -->
-						</div> <!-- /.col-lg -->
-
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-service-content">
-								<div class="icon-heading tran3s">
-									<div class="icon tran3s"><span aria-hidden="true" style="font-size:35px;font-weight:bold;">IMS</span></div>
-									<h6><a href="#" class="tran3s">Inventory Management System</a></h6>
-								</div>
-								<p>IMS is systems that enable the business transaction between client and company to be completed.IMS system supported by different hardware starting from barcode scanners and ending with card payment terminals.</p>
-							</div> <!-- /.single-service-content -->
-						</div> <!-- /.col-lg -->
+												
 					</div> <!-- /.row -->
 				</div> <!-- /.container -->
 			</div> <!-- /#service-section -->
@@ -554,193 +550,94 @@
 			<div id="project-section">					
 							<div class="container">
 								<div class="theme-title">
-									<h2>Working Experiences</h2>
-								</div> <!-- /.theme-title -->
-			
-								<section id="cd-timeline" class="cd-container">
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>Application Support Engineer </h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At PhillipCapital - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											October 2018 -  present
-										  </span>
-										  <span class="cd-date">October 2018 -  present</span> 
-										</div>
-												<p>
-														PhillipCapital (with headquarters in Singapore) operates in the financial hubs of 16 countries and regions, including offices in Malaysia, Cambodia, Indonesia, Thailand, Hong Kong, China, Japan, India, Sri Lanka, Australia, UAE, UK, France, Turkey and USA.
-														PhillipCapital. <br/>Website: <a href=" https://www.phillip.com.sg" target="_new"> https://www.phillip.com.sg.</a>
-												</p>
-										
-                                                <ul class="content-skills" style='font-size: 12px;'>
-                                                <li><u> In this position I am responsible for:</u></li> 
-                                                <li>- Support applications (Trading platform)</li>
-                                                <li>- Provide the best solution for client that have some issue on that Application</li>
-                                                <li>- Provide what user requested like : log, data, technical use and application process</li>										
-                                                </ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
+									<h2>Gallery - Best Memory with Customers</h2>
+								</div> <!-- /.theme-title -->			
 								
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>Web developer</h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At SINET - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											May 2017 – October 2017
-										  </span>
-										  <span class="cd-date">May 2017 – October 2017</span> 
-										</div>
-												<p>
-														SINET Founded in 2009, SINET (pronounces S.I NET) is a Specialist Dedicated Internet and Telecom Service Provider with strong focuses on engineering excellence and reliable support. SINET is one of the biggest providers with nation-wide Fiber, DWDM, SDH and a MetroEthernet backbone. We own and operate over 200 active network POPs across the country, not only in all main cities and provincial towns but also in remote districts and villages.
-                                                        SINET is a registered trademark of S.I Group Co. Ltd., a Cambodia-based diversified group involving in key growth sectors such as Trading, Property, FMCG, Travel, Hospitality and ICT for more than 20 years.
-                                                       <br/> Website: <a href="https://www.sinet.com.kh" target="_new"> https://www.sinet.com.kh.</a>
-												</p>
-										<ul class="content-skills" style='font-size: 12px;'>
-										<li><u> In this position I am responsible for:</u></li> 
-										<li>- Support applications (Trading platform)</li>
-										<li>- Provide the best solution for client that have some issue on that Application</li>
-										<li>- Provide what user requested like : log, data, technical use and application process</li>										
-										</ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
-								
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>Senior Web Developer</h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At Highpoint - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											February 2015 – May 2017  
-										  </span>
-										  <span class="cd-date">February 2015 – May 2017</span> 
-										</div>
-												<p>
-														HIGHPIONT | AUTO-ID is leading providing and distribution on POS, Card printers, Silicon, RFID transponders, chip cards, RFID reader and terminal. HighPoint can guarantee manufacturers of POS peripherals, POS Printer, Card printer, Barcode Scanner, Label printer, smart cards, RFID transponders and readers the most efficient access to the latest semiconductors.
+								<div class="container" style="margin-top: 25px;">
+									<div class="row">
 
-                                                        The product range, as by HighPoint, Auto-ID, Pack Print Software from leading suppliers such as CODE SOFT, Evolis, Armor, Honeywell, Sato, Postek, Epson, Atmel, Infineon, Legic, Microchip, EM Microeletronic, and NXP Semiconductors.
+										<div class="row">
+											<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+												<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+												   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+												   data-target="#image-gallery">
+													<img class="img-thumbnail"
+														 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+														 alt="Another alt text">
+												</a>
+											</div>
+											<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+												<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+												   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+												   data-target="#image-gallery">
+													<img class="img-thumbnail"
+														 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+														 alt="Another alt text">
+												</a>
+											</div>
+								
+											<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+												<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+												   data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+												   data-target="#image-gallery">
+													<img class="img-thumbnail"
+														 src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+														 alt="Another alt text">
+												</a>
+											</div>
+											<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+												<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
+												   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+												   data-target="#image-gallery">
+													<img class="img-thumbnail"
+														 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+														 alt="Another alt text">
+												</a>
+											</div>
+										</div>	<!-- /.row -->
 
-                                                        Our aim is to become the most recognized provider of POS peripherals, POS Printer, Touch terminal, Card solution, silicon for RFID and chip cards in the identification industry and the prime partner for leading silicon suppliers and their distribution customers.
-                                                        <br/> Website: <a href="http://www.highpoint.com.kh/" target="_new"> http://www.highpoint.com.kh/</a>
-												</p>
-                                                <ul class="content-skills" style='font-size: 12px;'>
-										<li><u> In this position I am responsible for:</u></li> 
-										<li>✢  Developing Systems</li>
-										<li>- Meeting with Customer for get information / customer requirements.</li>
-										<li>- Design Database</li>	
-										<li>- Develop Web base Application for new clients.</li>	
-										<li>- Supporting to Clients </li>	
-										<li>- Training </li>	
-										<li>- Provide client the best solution to solved problem that client complaint.</li>	
-										<li>✢ Programming Language</li>	
-										<li>- HTML, CSS, JavaScript, Jquery </li>	
-										<li>- PHP using Codeigniter Framework </li>
-                                        <li>- Bootstrap Framework </li>                                        
-										</ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
-								
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>Business Center Officer</h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At Sofitel Phnom Penh Phokeethra - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											February 2011 – April 2013  
-										  </span>
-										  <span class="cd-date">February 2011 – April 2013 </span> 
-										</div>
-												<p>
-														Immerse in a luxurious haven of tranquility and French colonial elegance.
-                                                        Sofitel Ambassadors greet guests in each step of their experience in our inspired 5-star hotel located in close vicinity of a large scale shopping mall, government offices, embassies, major tourist attractions and the charming riverfront.
-                                                        Delight in one of our four gourmet restaurants for the ultimate culinary journey. Life is Magnifique in Phnom Penh.
-                                                       <br/> Website: <a href="http://www.sofitel.com/gb/hotel-6526-sofitel-phnom-penh-phokeethra/index.shtml" target="_new"> http://www.sofitel.com/gb/hotel-6526-sofitel-phnom-penh-phokeethra/index.shtml</a> 
-												</p>
-                                        <ul class="content-skills" style='font-size: 12px;'>
-										<li><u> In this position I am responsible for:</u></li> 
-										<li>- Support customers</li>
-										<li>- Customer Services</li>
-										<li>- Prepare place for customer meeting </li>	
-										<li>- Develop Web base Application for new clients.</li>	
-										<li>- Support customers needed like : internet, Email, and anything related to customer's business (B2B)</li>	
-										<li>- Help front office like : call center, sell products in the shop.</li>	                                      
-										</ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
-								
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>English Tutor</h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At Student Home near Santomuk high school - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											March 2010 – November 2011  
-										  </span>
-										  <span class="cd-date">March 2010 – November 2011</span> 
-										</div>
-												<p>
-                                                    Teaching at student's home about Conversation and grammar. 
-                                                </p>
-                                         <ul class="content-skills" style='font-size: 12px;'>
-										<li><u> In this position I am responsible for:</u></li> 
-										<li>- Teaching general Conversation </li>
-										<li>- Teaching Grammar in use</li>
-										</ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
-								
-										<div class="cd-timeline-block">
-											<div class="cd-timeline-img cd-picture">
-											</div>								
-											<div class="cd-timeline-content">
-												<h2>Customer Service</h2>
-												
-										<div class="timeline-content-info">
-										  
-										  <span class="timeline-content-info-date">
-											At Playboy Club - 
-											<i class="fa fa-calendar-o" aria-hidden="true"></i>
-											2008 – 2010  
-										  </span>
-										  <span class="cd-date">2008 – 2010</span> 
-										</div>
-												<p>
-                                                    I am the serve, doing service to customer come to club. 
-                                                </p>
-                                         <ul class="content-skills" style='font-size: 12px;'>
-										<li><u> In this position I am responsible for:</u></li> 
-										<li>- Prepare tables, chairs, clean glass </li>
-										<li>- service as customer needed. </li>
-										</ul>
-											</div> <!-- cd-timeline-content -->
-										</div> <!-- cd-timeline-block -->
-									</section> <!-- cd-timeline --><!-- /.row -->
+										<div class="row">
+												<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+													<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+													   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+													   data-target="#image-gallery">
+														<img class="img-thumbnail"
+															 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+															 alt="Another alt text">
+													</a>
+												</div>
+												<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+													<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+													   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+													   data-target="#image-gallery">
+														<img class="img-thumbnail"
+															 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+															 alt="Another alt text">
+													</a>
+												</div>
+									
+												<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+													<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+													   data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+													   data-target="#image-gallery">
+														<img class="img-thumbnail"
+															 src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+															 alt="Another alt text">
+													</a>
+												</div>
+												<div class="col-lg-3 col-md-6 col-xs-12 thumb">
+													<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
+													   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+													   data-target="#image-gallery">
+														<img class="img-thumbnail"
+															 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+															 alt="Another alt text">
+													</a>
+												</div>
+											</div>	<!-- /.row -->
+
+									</div> <!-- /.row -->
+								</div>
 							</div> <!-- /.container -->
 						</div>
 			</div> <!-- /#project-section -->
@@ -764,7 +661,7 @@
 							        <div class="codeconSkills">
 							            <div class="codeconSkillbar">
 							            	<div class="skill-text">
-							            		<span class="codeconSkillArea">Web Development</span>
+							            		<span class="codeconSkillArea">English</span>
 							            	</div>
 							                <div class="skillBar" data-percent="90%">
 							                	<span class="PercentText">90%</span>
@@ -772,39 +669,49 @@
 							            </div>
 							            <div class="codeconSkillbar">
 							            	<div class="skill-text">
-							            		<span class="codeconSkillArea ">MYSQL,SQL SERVER</span>
-							                    
-							            	</div>
-								            <div class="skillBar" data-percent="80%">
-								                <span class="PercentText">80%</span>
-								            </div>
-							            </div>
-								        <div class="codeconSkillbar">
-								        	<div class="skill-text">
-							            		<span class="codeconSkillArea">PHP</span>
-							                    
-							            	</div>
-								            <div class="skillBar" data-percent="85%">
-								                <span class="PercentText">85%</span>
-								            </div>
-								        </div>
-								        <div class="codeconSkillbar">
-								        	<div class="skill-text">
-							            		<span class="codeconSkillArea">ASP.NET</span>
+							            		<span class="codeconSkillArea ">Thai</span>
 							                    
 							            	</div>
 								            <div class="skillBar" data-percent="60%">
 								                <span class="PercentText">60%</span>
 								            </div>
-								        </div>
+							            </div>
 								        <div class="codeconSkillbar">
 								        	<div class="skill-text">
-							            		<span class="codeconSkillArea">Web Design</span>
+							            		<span class="codeconSkillArea">Chinese</span>
+							                    
+							            	</div>
+								            <div class="skillBar" data-percent="15%">
+								                <span class="PercentText">15%</span>
+								            </div>
+										</div>	
+										<div class="codeconSkillbar">
+								        	<div class="skill-text">
+							            		<span class="codeconSkillArea">PHOTOGRAPHY</span>
+							                    
+							            	</div>
+								            <div class="skillBar" data-percent="85%">
+								                <span class="PercentText">85%</span>
+								            </div>
+										</div>
+										<div class="codeconSkillbar">
+								        	<div class="skill-text">
+							            		<span class="codeconSkillArea">Problem solving</span>
+							                    
+							            	</div>
+								            <div class="skillBar" data-percent="90%">
+								                <span class="PercentText">90%</span>
+								            </div>
+										</div>
+										<div class="codeconSkillbar">
+								        	<div class="skill-text">
+							            		<span class="codeconSkillArea">Social media Promoting</span>
 							                    
 							            	</div>
 								            <div class="skillBar" data-percent="75%">
-								                <span class="PercentText ">75%</span>
+								                <span class="PercentText">75%</span>
 								            </div>
+								        </div>							        
 								        </div>
 							    	</div> <!-- /.codeconSkills -->
 							    </div> <!-- /.habilidades_contenedor -->
@@ -924,7 +831,7 @@
 					</div> <!-- /.theme-title -->
 
 					<div class="clear-fix">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="single-news-item">
 								<div class="img"><img src="images/blog/1.jpg" alt="Image">
 									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
@@ -938,7 +845,7 @@
 							</div> <!-- /.single-news-item -->
 						</div> <!-- /.col- -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="single-news-item">
 								<div class="img"><img src="images/blog/2.jpg" alt="Image">
 									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
@@ -952,7 +859,7 @@
 							</div> <!-- /.single-news-item -->
 						</div> <!-- /.col- -->
 
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="single-news-item">
 								<div class="img"><img src="images/blog/3.jpg" alt="Image">
 									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
@@ -1043,12 +950,12 @@
 
 						<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
 							<div class="row">
-								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 									<div class="single-input">
 										<input type="text" placeholder="First Name*" name="Fname">
 									</div> <!-- /.single-input -->
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 									<div class="single-input">
 										<input type="text" placeholder="Last Name*" name="Lname">
 									</div> <!-- /.single-input -->
@@ -1099,14 +1006,15 @@
 					<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
 
 					<ul>
-						<li><a href="https://www.facebook.com/premchanthorn" class="tran3s round-border" target='_new'><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="https://twitter.com/ChanthornPrem" class="tran3s round-border" target='_new'><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.pinterest.com/pchanthorn/" class="tran3s round-border" target='_new'><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/premchanthorn/" class="tran3s round-border" target='_new'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="tran3s round-border hidden"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="tran3s round-border hidden"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="tran3s round-border hidden"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="tran3s round-border hidden"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+						<li><a href="https://m.facebook.com/sunny.tourleader.1" class="tran3s round-border" target='_new'><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						
+						<li class="hidden"><a href="https://twitter.com/ChanthornPrem" class="tran3s round-border" target='_new'><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="https://www.pinterest.com/pchanthorn/" class="tran3s round-border" target='_new'><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="https://www.linkedin.com/in/premchanthorn/" class="tran3s round-border" target='_new'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="#" class="tran3s round-border hidden"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="#" class="tran3s round-border hidden"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="#" class="tran3s round-border hidden"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li class="hidden"><a href="#" class="tran3s round-border hidden"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
 					</ul>
 					<p>Copyright @2018 All rights reserved</p>
 				</div>
@@ -1140,6 +1048,9 @@
 		<!-- Js File_________________________________ -->
 
 		<!-- j Query -->
+
+
+		
 		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
 
 		<!-- Bootstrap JS -->
