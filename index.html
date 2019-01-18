@@ -29,7 +29,20 @@
 		<![endif]-->
 
 		<style>
-			
+			.googleCalendar{
+			position: relative;
+			height: 100%;
+			width: 100%;
+			padding-bottom: 50%;
+			}
+
+			.googleCalendar iframe{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			}
 
 		.cd-container {
 		width: 90%;
@@ -324,7 +337,7 @@
 							<li><a href="#service-section">Coutries</a></li>
 							<li><a href="#project-section">Gallery</a></li>
 							<li class='hidden'><a href="#team-section" >TEAM</a></li>
-							<li><a href="#skill-section">Skill</a></li>
+							<li><a href="#schedule">My schedule</a></li>
 							<li class='hidden'><a href="#our-client">CLIENTS</a></li>
 							<li class='hidden'><a href="#pricing-section">Pricing</a></li>
 							<li class="dropdown-holder hidden"><a href="#blog-section">BLOG</a>
@@ -1023,54 +1036,17 @@
 				Blog Section
 			=====================================================
 			-->
-			<div id="blog-section" class='hidden'>
+			<div id="schedule">
 				<div class="container">
 					<div class="theme-title">
-						<h2>OUR LATEST Blog</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+						<h2>MY SCHEDULE</h2>
+						<p style="font-size:20px;font-weight: bold;">Please kindly check my available date for your needed. Thanks </p>
+						<br/>
 					</div> <!-- /.theme-title -->
 
 					<div class="clear-fix">
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="single-news-item">
-								<div class="img"><img src="images/blog/1.jpg" alt="Image">
-									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
-								</div> <!-- /.img -->
-
-								<div class="post">
-									<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business community</a></h6>
-									<a href="blog-details.html">Posted by <span class="p-color">admin</span>  at 04 Feb, 2017</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html" class="tran3s">Read More</a></p>
-								</div> <!-- /.post -->
-							</div> <!-- /.single-news-item -->
-						</div> <!-- /.col- -->
-
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="single-news-item">
-								<div class="img"><img src="images/blog/2.jpg" alt="Image">
-									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
-								</div> <!-- /.img -->
-
-								<div class="post">
-									<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business community</a></h6>
-									<a href="blog-details.html">Posted by <span class="p-color">admin</span>  at 04 Feb, 2017</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html" class="tran3s">Read More</a></p>
-								</div> <!-- /.post -->
-							</div> <!-- /.single-news-item -->
-						</div> <!-- /.col- -->
-
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="single-news-item">
-								<div class="img"><img src="images/blog/3.jpg" alt="Image">
-									<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link" aria-hidden="true"></i></a>
-								</div> <!-- /.img -->
-
-								<div class="post">
-									<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business community</a></h6>
-									<a href="blog-details.html">Posted by <span class="p-color">admin</span>  at 04 Feb, 2017</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html" class="tran3s">Read More</a></p>
-								</div> <!-- /.post -->
-							</div> <!-- /.single-news-item -->
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 googleCalendar">
+								<iframe src="https://calendar.google.com/calendar/embed?title=Sunny%20Tour%20Calendar&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=classroom107781603399684756157%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Asia%2FBangkok" style="border-width:0" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
 						</div> <!-- /.col- -->
 					</div> <!-- /.clear-fix -->
 				</div> <!-- /.container -->
@@ -1083,7 +1059,7 @@
 				Partner Section
 			=====================================================
 			-->
-			<div id="partner-section" class='hidden'>
+			<div id="ssschedule" class="hidden">
 				<div class="container">
 					<div id="partner_logo" class="owl-carousel owl-theme">
 						<div class="item"><img src="images/logo/p1.png" alt="logo"></div>
@@ -1094,7 +1070,7 @@
 						<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
 					</div> <!-- End .partner_logo -->
 				</div> <!-- /.container -->
-			</div> <!-- /#partner-section -->
+			</div> <!-- /#schedule -->
 
 
 
